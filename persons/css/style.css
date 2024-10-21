@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(200, 200, 200);
+}
+.line {
+    margin: 30px 25%;
+    width: 50%;
+    text-align: center;
+    height: 3px;
+    background-color: black;
+}
+h1 {
+    font-style: italic;
+    text-align: center;
+}
+.character-list {
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}
+.character-image {
+    display: none; 
+}
+.character-name {
+    text-decoration: underline;
+}
+.image-button {
+    width: 172px;
+	height: 46px;
+    background-color: #3E6F49;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    font-size: 12px;
+    line-height: 1.5;
+    
+}

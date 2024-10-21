@@ -1,0 +1,12 @@
+@import url(blocks/normalize.css);
+@import url(blocks/base.css);
+@import url(blocks/header.css);
+@import url(blocks/hero.css);
+@import url(blocks/fastPanel.css);
+@import url(blocks/menu.css);
+@import url(blocks/footer.css);
+@import url(blocks/dishPanel.css);
+@import url(blocks/show.css);
+@import url(blocks/instructions.css);
+@import url(blocks/recommendations.css);
+@import url(blocks/modal.css);

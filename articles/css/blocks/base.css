@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@font-face {
+    font-family: "FruitsandVegetables"; 
+    src: url("../../fonts/FruitsandVegetablesDisplay.ttf");
+    font-weight: normal;
+    }
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    position: relative;
+    box-sizing: border-box;
+    /* border: 3px solid rgb(158, 8, 56); */
+
+}
+
+/* 
+*, *::before, *::after {
+    box-sizing: inherit;
+} */
+
+.text::first-letter {
+    font-family: 'FruitsandVegetables';
+}
+
+td::first-letter {
+    font-family: 'FruitsandVegetables';
+}
+
+h3::first-letter {
+    font-family: 'FruitsandVegetables';
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 
+.block {
+    height: 100%;
+    border: 3px solid red;
+    box-sizing: border-box;
+} */
+
+body {
+    /* border: 3px solid rgb(16, 8, 158); */
+    /* width: 1920px; */
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    /* background: linear-gradient(180deg, #041220 4.69%, rgba(4, 17, 29, 0.90) 28.13%, rgba(6, 25, 42, 0.96) 52.6%, rgba(4, 23, 40, 0.87) 100%); */
+    /* background: linear-gradient(180deg, #031321 34.19%, rgba(6, 5, 5, 0.00) 100%) fixed; */
+    background: #041423;
+    /* background: #0d5eaa; */
+
+}
+
+.modelText {
+    color: black;
+}
+
+footer {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    margin: 0;
+}
+
+p {
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.container {
+    width: 90vw;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+input {
+    text-align: center;
+    padding-right: 55px;
+    padding-left: 15px;
+}
+
+input:focus {
+    outline:none;
+}
+
+::selection {
+    background-color: #3f4340;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin: 0px;
+    padding-left: 0; 
+}
+
+/*
+a {
+    text-decoration: none;
+}
+
+h1, h2 ,h3 ,h4 ,h5 ,h6 {
+    margin: 0;
+    color: white;
+} */
+
+

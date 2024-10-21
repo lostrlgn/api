@@ -1,0 +1,153 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__text{
+    font-size: 3rem;
+}
+
+.header {
+    padding-top: 11px;
+
+}
+
+.header__search  {
+    position: relative;
+}
+
+.header__search-input {
+    height: 2.6875rem;
+    width: 41rem;
+    border-radius: 20px;    
+    cursor: pointer;
+    border:none ;
+}
+
+.header__search-button {
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: 30px;
+    top: 9px;
+}
+
+.header__search-button-pic {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+
+.header__user {
+    display: flex;
+    align-items: center;
+}
+
+.header__user-name {
+    display: flex;
+    padding-left: 0.9375rem;
+}
+
+.user-name {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.header__logo__phone {
+    display: none;
+}
+
+
+
+.header__user-pic__phone {
+    display: none;
+}
+
+
+.header__logo__medium {
+    display: none;
+}
+
+@media (max-width: 1080px) {
+    .header {
+        width: 100%;
+    }
+
+    .header__logo {
+        display: none;
+    }
+
+    .header__logo__phone {
+        display: block;
+        /* background-color: aquamarine; */
+        /* margin-left: 5%; */
+    }
+    
+
+    .header__search-input {
+        width: 45vw;
+        height: 40px;
+        /* max-height: 43px; */
+    }
+
+    .header__user-pic {
+        display: none;
+    }
+
+    .header__user-pic__phone {
+        display: block;
+        /* background-color: aquamarine; */
+
+    }
+
+    .header__user-name {
+        display: none;
+    }
+
+    .header__search-button-pic {
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+    }
+
+    
+    .header__search  {
+        position: relative;
+        /* background-color: brown; */
+    }
+
+    .header__user {
+        /* background-color: rgb(42, 165, 99); */
+        box-sizing: border-box;
+
+        display: flex;
+        align-items: center;
+        padding-right: 0;
+        /* margin-right: 5%; */
+    }
+
+
+}
+
+
+
+@media (min-width:1080px) and (max-width: 1460px) {
+
+    .header__user-name {
+        display: none;
+    }
+
+
+    .header__logo {
+        display: none;
+    }
+
+    .header__logo__medium {
+        display: block;
+    }
+}
+
+  
